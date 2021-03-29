@@ -25,6 +25,5 @@ async def on_message(message):
 
     if message.content.startswith('!lastrace'):
             await message.channel.send('\n'.join(last_race))
-
-
+            
 client.run('Token')
